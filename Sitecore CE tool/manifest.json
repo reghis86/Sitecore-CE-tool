@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name":    "Sitecore CE Tool",
+  "description": "Simple tool help with the Sitecore content edition.",
+  "version": "0.1",
+  "offline_enabled": true,
+  "author": "Łukasz Parfieniuk",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [{
+    "matches":    ["*://*/*"],
+    "js":         ["content.js"],
+    "run_at":     "document_idle",
+    "all_frames": false
+  }],
+
+  "page_action": {
+    "default_title": "Test Extension",
+    "default_popup": "popup.html"
+  }
+
+}
