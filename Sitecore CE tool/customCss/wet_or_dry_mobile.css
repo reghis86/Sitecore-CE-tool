@@ -1,0 +1,118 @@
+.tipsdetail .articleWetOrDry {
+    font-family: futuraeftuop-bookregular;
+    margin-top: 0px!important;
+}
+
+.tipsdetail .articleWetOrDry img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tipsdetail .articleWetOrDry a {
+    color: #00419a;
+    font-weight: bold;
+}
+
+.tipsdetail .articleWetOrDry .articlePrimaryHeading {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #00419a;
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+}
+
+.tipsdetail .articleWetOrDry .articlePrimaryHeading span {
+    font-size: 20px;
+}
+
+.tipsdetail .articleWetOrDry .articlePrimaryHeading .subtitle {
+	font-style: italic;
+}
+
+.tipsdetail .articleWetOrDry .articleIntro {
+    padding: 0;
+}
+
+.tipsdetail .articleTableContainer {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.tipsdetail .articleTableItem4 {
+    display: block;
+    width: 100%;
+}
+
+.tipsdetail .articleTableItem6 {
+    display: block;
+    width: 100%;
+}
+
+.tipsdetail .articleTableItem4:nth-child(2) {
+    margin: 0!important;
+}
+
+.tipsdetail .articleTableItem6:nth-child(2) {
+    margin: 0!important;
+}
+
+.tipsdetail .articleTableItemText {
+    margin: 10px 0;
+}
+
+.tipsdetail .articleWetOrDry .HiddenElementDesktop {
+    margin-left: -20px!important;
+    margin-right: -20px!important;
+}
+
+.tipsdetail .articleWetOrDry .articleImage {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.tipsdetail .articleWetOrDry .articleImage img {
+    width: 100%!important;
+}
+
+.tipsdetail .kafel1,
+.tipsdetail .kafel3 {
+    float: left;
+    width: 48%;
+    clear: both;
+    padding-bottom: 30px;
+}
+
+.tipsdetail .kafel2,
+.tipsdetail .kafel4 {
+    float: right;
+    width: 48%;
+    padding-bottom: 30px;
+}
+
+.tipsdetail .kafel1 img,
+.tipsdetail .kafel2 img,
+.tipsdetail .kafel3 img,
+.tipsdetail .kafel4 img {
+    width: 100%;
+}
+
+.tipsdetail .kafel1 p,
+.tipsdetail .kafel2 p,
+.tipsdetail .kafel3 p,
+.tipsdetail .kafel4 p {
+    font-weight: normal;
+}
+
+.tipsdetail .articleRelatedArticlesHeading {
+    text-transform: none;
+    color: #1f4e79;
+    font-family: futuraeftuop-bookregular;
+    padding: 5px 0px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: left;
+}

@@ -1,0 +1,122 @@
+.tipsdetail .articleWetOrDry {
+    font-family: futuraeftuop-bookregular;
+    text-align: left;
+    width: 641px\0;
+}
+
+.tipsdetail .articleWetOrDry img {
+    width: 100%;
+}
+
+.tipsdetail .articleWetOrDry a {
+    color: #00419a;
+    font-weight: bold;
+}
+
+.tipsdetail .articleWetOrDry .articlePrimaryHeading {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #00419a;
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+}
+.tipsdetail .articleWetOrDry .articlePrimaryHeading .subtitle {
+	font-style: italic;
+}
+.tipsdetail .articleWetOrDry .articlePrimaryHeading span {
+    font-size: 20px;
+}
+
+.tipsdetail .articleWetOrDry .articleIntro {
+    padding: 0;
+}
+
+.tipsdetail .articleTableContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tipsdetail .articleTableItem4 {
+    width: 33.3333333333333%;
+}
+
+.tipsdetail .articleTableItem6 {
+    width: 50%;
+}
+
+.tipsdetail .articleTableItem4:nth-child(2) {
+    margin: 0 20px;
+}
+
+.tipsdetail .articleTableItem6:nth-child(2) {
+    margin-left: 20px;
+}
+
+.tipsdetail .articleTableItemText {
+    margin: 20px 0;
+}
+
+.tipsdetail .articleWetOrDry .articleImage {
+    width: 100%;
+}
+
+.tipsdetail .articleWetOrDry .articleImage img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tipsdetail .articleWetOrDry .HiddenElementMobile img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tipsdetail .articleWetOrDry .HiddenElementMobile {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.tipsdetail .articleWetOrDry .kafel1,
+.tipsdetail .articleWetOrDry .kafel3 {
+    float: left;
+    width: 48%;
+    clear: both;
+    padding-bottom: 30px;
+}
+
+.tipsdetail .articleWetOrDry .kafel2,
+.tipsdetail .articleWetOrDry .kafel4 {
+    float: right;
+    width: 48%;
+    padding-bottom: 30px;
+}
+
+.tipsdetail .articleWetOrDry .kafel1 img,
+.tipsdetail .articleWetOrDry .kafel2 img,
+.tipsdetail .articleWetOrDry .kafel3 img,
+.tipsdetail .articleWetOrDry .kafel4 img {
+    width: 100%;
+}
+
+.tipsdetail .articleWetOrDry .kafel1 p,
+.tipsdetail .articleWetOrDry .kafel2 p,
+.tipsdetail .articleWetOrDry .kafel3 p,
+.tipsdetail .articleWetOrDry .kafel4 p {
+    font-weight: normal;
+}
+
+.tipsdetail .articleWetOrDry .articleRelatedArticlesHeading {
+    text-transform: none;
+    color: #1f4e79;
+    font-family: futuraeftuop-bookregular;
+    padding: 5px 0px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: left;
+}

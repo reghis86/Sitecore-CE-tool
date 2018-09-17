@@ -1,0 +1,167 @@
+/*-------------------------SHAVING SCIENCE CSS STARTS HERE---------------------*/
+
+.articleShavingScience .embed-container iframe, .embed-container object, .embed-container embed {
+  width: 100% !important;
+}
+
+.articleShavingScience .article-intro p {
+  font-size: 14px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.articleShavingScience .article-step {
+  clear: both !important;
+  padding-top: 20px !important;
+}
+
+.articleShavingScience .article-paragraph-image-left img, .articleShavingScience .article-paragraph-image-right img {
+  display: block !important;
+  margin-left: 0px !important;
+  border-radius: 25px !important;
+}
+
+.articleShavingScience .article-paragraph-text-right {
+  width: 50% !important;
+  float: right !important;
+  font-size: 14px !important;
+  padding-left: 0px !important;
+}
+
+.articleShavingScience .article-paragraph-text-left {
+  width: 46% !important;
+  float: left !important;
+  font-size: 14px !important;
+  padding-left: 0px !important;
+}
+
+.articleShavingScience .article-paragraph-text-center {
+  width: 100% !important;
+  float: initial !important;
+  font-size: 14px !important;
+  padding-left: 0px !important;
+}
+
+.articleShavingScience .article-paragraph-image-left {
+  width: 46% !important;
+  margin-right: 20px !important;
+  float: left !important;
+  margin-top: 0px !important;
+}
+
+.articleShavingScience .article-paragraph-image-right {
+  width: 50% !important;
+  float: right !important;
+  font-size: 14px !important;
+  padding-left: 0px !important;
+}
+
+.tipsdetail .tips-content .articleShavingScience a {
+  font-weight: bold !important;
+}
+
+.tipsdetail .tips-content .articleShavingScience .articlePrimaryHeading {
+  line-height: 30px !important;
+  padding: 15px 0 !important;
+  text-transform: none !important;
+  color: #00419a !important;
+  font-family: futuraeftuop-bookregular !important;
+  font-size: 21px !important;
+  font-weight: bold !important;
+  width: 100% !important;
+  float: left !important;
+  display: block !important;
+}
+
+.tipsdetail .tips-content .articleShavingScience strong {
+  color: #00419a !important;
+  font-size: inherit !important;
+}
+
+.tipsdetail .tips-content .articleShavingScience p {
+  font-size: 14px !important;
+  line-height: 18px !important;
+  padding-top: 0 !important;
+}
+
+.articleShavingScience .articleRelatedArticlesHeading {
+  line-height: 30px !important;
+  padding: 15px 0 !important;
+  text-transform: none !important;
+  color: #00419a !important;
+  font-family: futuraeftuop-bookregular !important;
+  font-size: 21px !important;
+  font-weight: bold !important;
+  width: 100% !important;
+  float: left !important;
+  display: block !important;
+}
+
+.articleShavingScience .kafel1, .articleShavingScience .kafel3 {
+  float: left !important;
+  width: 48% !important;
+  padding-bottom: 35px !important;
+}
+
+.articleShavingScience .kafel2, .articleShavingScience .kafel4 {
+  float: right !important;
+  width: 48% !important;
+  padding-bottom: 35px !important;
+}
+
+.articleShavingScience .kafel1 img, .articleShavingScience .kafel2 img, .articleShavingScience .kafel3 img, .articleShavingScience .kafel4 img {
+  width: 100% !important;
+}
+
+.article-step span {
+  font-weight: bold !important;
+  font-size: 16px !important;
+  color: #000000 !important;
+}
+
+.articleShavingScience .article-table {
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+  border-collapse: collapse !important;
+  width: 95% !important;
+}
+
+.articleShavingScience .article-table tr:nth-child(even) {
+  background-color: #f2f2f2 !important;
+}
+
+.articleShavingScience .article-table tr td {
+  text-align: left !important;
+}
+
+.articleShavingScience .article-table tr th {
+  background-color: #FAFAFA !important;
+  text-align: left !important;
+  padding: 8px !important;
+}
+
+.articleShavingScience .article-step .article-table img {
+  margin-left: 20% !important;
+  margin-right: 20% !important;
+  display: block !important;
+  width: 58% !important;
+  border-radius: 0px !important;
+}
+
+.articleShavingScience .article-step .article-table strong {
+  font-weight: bold !important;
+  color: #00419a !important;
+}
+
+.articleShavingScience .article-step .article-table a {
+  text-decoration: underline !important;
+}
+
+.articleShavingScience .article-step .article-table .article-td-padding {
+  padding-bottom: 11px !important;
+}
+
+
+/*-----------------------SHAVING SCIENCE CSS ENDS HERE----------------------------*/

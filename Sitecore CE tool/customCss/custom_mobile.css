@@ -1,0 +1,182 @@
+.tipsdetail.cls-731c4e03-156b-4b0d-af64-f8ae87d15b2b.cls-6a062afb-2216-4897-abe9-7b638398d32b .subtitile-box {
+    padding : 0;
+}
+
+.tipsdetail .text-justify {
+    text-align : justify;
+}
+
+.tipsdetail .articlePadding {
+    margin-left : 6.25%;
+    margin-right : 6.25%;
+}
+
+.tipsdetail .articleRightPadding {
+    margin-left : 6.25%;
+    margin-right : 6.25%;
+}
+
+.tipsdetail .articleHowToShave .embed-container {
+    width : 100%;
+    position : relative;
+    padding : 56.25% 0 0 0;
+    margin-top : 15px;
+}
+
+.tipsdetail .articleHowToShave .embed-container iframe,.tipsdetail .articleHowToShave .embed-container object,.tipsdetail .articleHowToShave .embed-container embed {
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+}
+
+.tipsdetail .articleHowToShave .stepContent a,.tipsdetail .articleHowToShave .articleIntro a {
+    font-weight : bold;
+    color : #00419a;
+}
+
+.tipsdetail .articleHowToShave .articleStepHeading a {
+    text-decoration : underline;
+}
+
+.tipsdetail .articleHowToShave .articleStylerBaner {
+    clear : both;
+    text-align : center;
+}
+
+.tipsdetail .articleHowToShave .articleIntro {
+    padding : 10px 0px 10px;
+}
+
+.tipsdetail .articleHowToShave .articlePrimaryHeading {
+    clear : both;
+    color : #00419a!important;
+    font-family : futuraeftuop-bookregular;
+    padding : 0px 0px 20px;
+    font-size : 25px;
+    font-weight : bold;
+    text-transform : none;
+    display : block;
+    line-height : 30px;
+}
+
+.tipsdetail .articleHowToShave .articleRelatedArticlesHeading {
+    text-transform : none;
+    color : #1f4e79!important;
+    font-family : futuraeftuop-bookregular;
+    padding : 5px 0px;
+    font-size : 21px;
+    font-weight : bold;
+    line-height : 26px;
+    text-align : left;
+}
+
+.tipsdetail .articleHowToShave .articleContent {
+    clear : both;
+    overflow : hidden;
+    display : block;
+    margin-bottom : 30px;
+}
+
+.tipsdetail .articleHowToShave .articleStepHeading {
+    text-align : center;
+    margin-bottom : 10px;
+    margin-top : 20px;
+    display : block;
+    color : #00419a;
+    font-family : 'futuraeftuop-bookregular';
+    padding : 0px 0;
+    font-size : 21px;
+    font-weight : bold;
+    line-height : 26px;
+}
+
+.tipsdetail .articleHowToShave .articleImageStep {
+    text-align : center;
+    width : 100%;
+    height : auto;
+}
+
+.tipsdetail .articleHowToShave .articleImageStep img {
+    padding-top : 0px;
+    padding-bottom : 10px;
+    max-width : 100%;
+    margin-left : auto;
+    margin-right : auto;
+    width : 33%;
+    height : auto;
+}
+
+.tipsdetail .articleHowToShave .stepContent {
+    width : 100%;
+    padding : 0 0 20px;
+}
+
+.tipsdetail .articleHowToShave .stepContent strong {
+    font-size : 14px;
+}
+
+.tipsdetail .articleHowToShave .articleImage {
+    width : 100%;
+    margin-left : 0px;
+}
+
+.tipsdetail .articleHowToShave .tips-content div img {
+    margin-left : auto;
+}
+
+.tipsdetail .articleHowToShave .articleImage img {
+    width : 100%;
+}
+
+.tipsdetail .articleHowToShave .HiddenElementDesktop img {
+    padding-bottom : 20px;
+}
+
+/* related articles - starts */
+.tipsdetail .kafel1,.tipsdetail .kafel3 {
+    float : left;
+    width : 48%;
+    clear : both;
+}
+
+.tipsdetail .kafel2,.tipsdetail .kafel4 {
+    float : right;
+    width : 48%;
+}
+
+.tipsdetail .kafel1 img,.tipsdetail .kafel2 img,.tipsdetail .kafel3 img,.tipsdetail .kafel4 img {
+    width : 100%;
+}
+
+.tipsdetail .articleRelatedArticlesHeading {
+    text-transform : none;
+    color : #1f4e79;
+    font-family : futuraeftuop-bookregular;
+    padding : 5px 0px;
+    font-size : 21px;
+    font-weight : bold;
+    line-height : 26px;
+    text-align : left;
+}
+
+.tipsdetail .kafle-conteainer-up-top {
+    width : 49%;
+    float : left;
+    margin-bottom : 20px;
+}
+
+.tipsdetail .kafle-conteainer-down-top {
+    width : 49%;
+    float : right;
+    margin-bottom : 20px;
+}
+
+.tipsdetail .kafle-step-top {
+    margin-top : 15px;
+}
+
+.tipsdetail .kafle-step-top p {
+    font-weight : bold;
+}

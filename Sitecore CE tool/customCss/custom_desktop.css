@@ -1,0 +1,144 @@
+.tipsdetail .text-justify {
+    text-align:justify;
+}
+.tipsdetail .articlePadding {
+    margin-left:20px;
+    margin-right:20px;
+}
+.tipsdetail .articleRightPadding {
+    margin-right:20px;
+}
+.tipsdetail .articleHowToShave .embed-container {
+    width:100%;
+    position:relative;
+    padding:56.25% 0 0 0;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+.tipsdetail .articleHowToShave .embed-container iframe,.tipsdetail .articleHowToShave .embed-container object,.tipsdetail .articleHowToShave .embed-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.tipsdetail.cls-731c4e03-156b-4b0d-af64-f8ae87d15b2b.cls-6a062afb-2216-4897-abe9-7b638398d32b .tips-content-text {
+    width:100% !important;
+    padding:12px 0px 0px !important;
+}
+.tipsdetail .articleHowToShave .stepContent a,.tipsdetail .articleHowToShave .articleIntro a {
+    font-weight:bold;
+    color:#00419a;
+}
+.tipsdetail .articleHowToShave .articleStylerBaner {
+    clear:both;
+    text-align:center;
+}
+.tipsdetail .articleHowToShave .articleIntro {
+    padding:10px 0px 20px;
+}
+.tipsdetail .articleHowToShave .articlePrimaryHeading {
+    clear:both;
+    color:#00419a;
+    font-family:futuraeftuop-bookregular;
+    padding:0px 0px 20px;
+    font-size:25px;
+    font-weight:bold;
+    text-transform:none;
+    display:block;
+    line-height:30px;
+}
+.tipsdetail .articleHowToShave .stepContent {
+    text-align:justify;
+    font-size:14px;
+    width:49%;
+    float:right;
+}
+.tipsdetail .articleHowToShave .stepContent strong {
+    font-size:14px;
+}
+.tipsdetail .articleHowToShave .articleContent {
+    clear:both;
+    overflow:hidden;
+    display:block;
+    margin-bottom:40px;
+}
+.tipsdetail .articleHowToShave .articleImage {
+    width:33%;
+    margin-right:0px;
+    float:left;
+    margin-top:0px;
+}
+.tipsdetail .articleHowToShave .articleImage img {
+    display:block;
+    border-radius:15px;
+}
+.tipsdetail .articleHowToShave .articleImageStep {
+    width:15%;
+    float:left;
+    height:50px;
+    display:block;
+}
+.tipsdetail .articleHowToShave .articleImageStep img {
+    height:75px;
+    display:block;
+    padding-top:33px;
+}
+.tipsdetail .articleHowToShave .articleStepHeading {
+    display:block;
+    color:#00419a;
+    font-family:'futuraeftuop-bookregular';
+    padding:0px 0;
+    font-size:21px;
+    font-weight:bold;
+    line-height:26px;
+    text-align:left;
+}
+.tipsdetail .articleHowToShave .articlePromo {
+    text-align:center;
+    color:#00419a;
+}
+/* related articles - starts */
+.tipsdetail .kafel1,.tipsdetail .kafel3 {
+    float:left;
+    width:48%;
+    clear:both;
+    padding-bottom:30px;
+}
+.tipsdetail .kafel2,.tipsdetail .kafel4 {
+    float:right;
+    width:48%;
+    padding-bottom:30px;
+}
+.tipsdetail .kafel1 img,.tipsdetail .kafel2 img,.tipsdetail .kafel3 img,.tipsdetail .kafel4 img {
+    width:100%;
+}
+.tipsdetail .kafel1 p,.tipsdetail .kafel2 p,.tipsdetail .kafel3 p,.tipsdetail .kafel4 p {
+    font-weight:normal;
+}
+.tipsdetail .articleRelatedArticlesHeading {
+    text-transform:none;
+    color:#1f4e79;
+    font-family:futuraeftuop-bookregular;
+    padding:5px 0px;
+    font-size:21px;
+    font-weight:bold;
+    line-height:26px;
+    text-align:left;
+}
+.tipsdetail .kafle-conteainer-up-top {
+    width:49%;
+    float:left;
+    margin-bottom:20px;
+}
+.tipsdetail .kafle-conteainer-down-top {
+    width:49%;
+    float:right;
+    margin-bottom:20px;
+}
+.tipsdetail .kafle-step-top {
+    margin-top:15px;
+}
+.tipsdetail .kafle-step-top p {
+    font-weight:bold;
+}

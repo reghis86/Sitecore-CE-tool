@@ -1,0 +1,92 @@
+ .HiddenElementMobile {
+     display: none!important;
+ }
+
+ .productdetail .nav-container .sub-nav-container .relatedContent .secondaryContentItem div {
+     padding: 0 2%;
+ }
+
+ .productdetail.cls-c41f512d-1b1d-462b-bf56-df36634e3071 .carousel-indicators {
+     margin: 0 auto;
+     width: 51%;
+     left: 13%;
+ }
+
+ .productdetail .nav-container li:first-child img:first-child {
+     margin: 0;
+ }
+
+ .productdetail .product-detail--styler {
+     padding: 0 3%;
+ }
+
+ .productdetail .product-detail--styler a {
+     font-weight: 700;
+     color: #00f!important;
+ }
+
+ .productdetail .product-detail--title {
+     font-family: futuraeftuop-demiboldregular;
+     font-size: 5vw;
+     text-transform: uppercase;
+     text-align: center;
+     padding: 10% 0 2%;
+     line-height: 1.2em;
+ }
+
+ .productdetail .product-detail--desc {
+     font-family: futuraeftuop-bookregular;
+     font-size: 4.3vw;
+     line-height: 1.3em;
+     padding-bottom: 4%;
+ }
+
+ .productdetail .product-detail--desc-col {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 10%;
+ }
+
+ .productdetail .product-detail--desc-col img {
+     width: 100%;
+     display: block;
+     margin: 0 auto;
+ }
+
+ .productdetail .product-detail--desc-col p {
+     display: block;
+     margin: 2vw 0 0;
+     width: 100%;
+ }
+
+ .productdetail .product-detail--img {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .productdetail .product-detail--img img {
+     width: 48%;
+ }
+
+ .product-detail--title-head {
+     font-family: futuraeftuop-demiboldregular;
+     font-size: 6vw;
+     line-height: 1.4em;
+     padding: 4% 0 3%;
+     text-transform: uppercase;
+ }
+
+ .productdetail .product-detail--title-head::before,
+ .productdetail .product-detail--title-head::after {
+     content: "";
+     border-bottom: 2px solid #000;
+     display: block;
+     width: 30vw;
+     margin: 0 auto;
+ }
+
+ .productdetail .product-detail--img-wide img {
+     width: 100%;
+ }

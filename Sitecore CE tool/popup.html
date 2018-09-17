@@ -1,41 +1,165 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <script type="text/javascript" src="popup.js"></script>
-    <style>
-      textarea {
-        outline: none;
-        resize: none;
-        height: auto;
-      }
-      div {
-        width: 300px;
-      }
-    </style>
-  </head>
-  <body>
-    <h3 style="font-weight:bold; text-align:center;">DOM Info</h3>
-    <table border="1" cellpadding="3" style="border-collapse:collapse;">
-      <tr>
-        <td nowrap>Meta ID:</td>
-        <td align="right"><div contenteditable="textarea" id="itemid">N/A</div></td>
+    <head>
+        <title>Sitecore CE Tools</title>
+        <script type="text/javascript" src="popup.js"></script>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <div class="main-tabs">
+                <div class="main-tabs__nav">
+                    <div class="main-tabs__nav-btn is-active" id="btn-meta">Meta info</div>
+                    <div class="main-tabs__nav-btn" id="btn-converter">Converter</div>
+                    <div class="main-tabs__nav-btn" id="btn-css">Inject CSS</div>
+                    <div class="main-tabs__nav-btn" id="btn-about">Draft</div>
+                </div>
 
-      </tr>
-      <tr>
-        <td nowrap>Meta Title:</td>
-        <td align="right"><div contenteditable="textarea" id="title">N/A</div></td>
+                <div class="main-tabs__tab is-active" id="meta-panel">
+                    <div class="meta-panel__content" id="itemid">
+                        Sorry, this site is not supported.
+                    </div>
+                    <div class="meta-panel__title">
+                        Meta ID
+                    </div>
+                    <div class="meta-panel__btn-more" id="btn-show-more">
+                        More...
+                    </div>
+                    <div class="hidden" id="container-show-more">
+                        <div class="meta-panel__content" id="title">
+                            Sorry, this site is not supported.
+                        </div>
+                        <div class="meta-panel__title">
+                            Meta title
+                        </div>
+                        <div class="meta-panel__content" id="desc">
+                            Sorry, this site is not supported.
+                        </div>
+                        <div class="meta-panel__title">
+                            Meta description
+                        </div>
+                        <div class="meta-panel__content" id="key">
+                            Sorry, this site is not supported.
+                        </div>
+                        <div class="meta-panel__title">
+                            Meta keywords
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="main-tabs__tab" id="converter-panel">
+                    <div class="converter-panel__text-input">
+                        <input type="text" id="inputText" name="converter-input" placeholder="Paste your text here...">
+                    </div>
+                    <div class="converter-panel__buttons">
+                        <button class="converter-panel__btn" id="btn-ashx">
+                            .ashx
+                        </button>
+                        <button class="converter-panel__btn" id="btn-to-title">
+                            Title
+                        </button>
+                    </div>
+                    <div class="converter-panel__text-output" id="outputText">
+                    </div>
+                </div>
+                
+                <div class="main-tabs__tab" id="css-panel">
+                    <div class="inject-panel__buttons">
+                        <button class="inject-panel__btn" id="btnArtDt">
+                            Desktop
+                        </button>
+                        <button class="inject-panel__btn" id="btnArtMb">
+                            Mobile
+                        </button>
+                        <div class="inject-panel__title">
+                            Gillette article
+                        </div>
+                    </div>
+                    <div class="inject-panel__buttons">
+                        <button class="inject-panel__btn" id="btnFaqDt">
+                            Desktop
+                        </button>
+                        <button class="inject-panel__btn" id="btnFaqMb">
+                            Mobile
+                        </button>
+                        <div class="inject-panel__title">
+                            Gillette faq, related and videos
+                        </div>
+                    </div>
+                    <div class="inject-panel__buttons">
+                        <button class="inject-panel__btn" id="btnSsDt">
+                            Desktop
+                        </button>
+                        <button class="inject-panel__btn" id="btnSsMb">
+                            Mobile
+                        </button>
+                        <div class="inject-panel__title">
+                            Gillette shaving science
+                        </div>
+                    </div>
+                    <div class="inject-panel__buttons">
+                        <button class="inject-panel__btn" id="btnBgDt">
+                            Desktop
+                        </button>
+                        <button class="inject-panel__btn" id="btnBgMb">
+                            Mobile
+                        </button>
+                        <div class="inject-panel__title">
+                            Gillette body grooming
+                        </div>
+                    </div>
+                    <div class="inject-panel__buttons">
+                        <button class="inject-panel__btn" id="btnWodDt">
+                            Desktop
+                        </button>
+                        <button class="inject-panel__btn" id="btnWodMb">
+                            Mobile
+                        </button>
+                        <div class="inject-panel__title">
+                            Wet or dry
+                        </div>
+                    </div>
+                    <div class="inject-panel__buttons">
+                        <button class="inject-panel__btn" id="btnVenusDt">
+                            Desktop
+                        </button>
+                        <button class="inject-panel__btn" id="btnVenusMb">
+                            Mobile
+                        </button>
+                        <div class="inject-panel__title">
+                            Venus article
+                        </div>
+                    </div>
+                    <div class="inject-panel__buttons">
+                        <button class="inject-panel__btn" id="btnStylerDt">
+                            Desktop
+                        </button>
+                        <button class="inject-panel__btn" id="btnStylerMb">
+                            Mobile
+                        </button>
+                        <div class="inject-panel__title">
+                            Styler Description
+                        </div>
+                    </div>
+                    <div class="inject-panel__buttons">
+                        <button class="inject-panel__btn" id="btnCustomDt">
+                            Desktop
+                        </button>
+                        <button class="inject-panel__btn" id="btnCustomMb">
+                            Mobile
+                        </button>
+                        <div class="inject-panel__title">
+                            Custom CSS
+                        </div>
+                    </div>
+                </div>
 
-      </tr>
-      <tr>
-        <td nowrap>Meta Description</td>
-        <td align="right"><div contenteditable="textarea" id="desc">N/A</div></td>
+                <div class="main-tabs__tab" id="about-panel">
+                    <div class="about-panel__draft-list" id="draft-list">
 
-      </tr>
-      <tr>
-        <td nowrap>Meta Keywords</td>
-        <td align="right"><div contenteditable="textarea" id="key">N/A</div></td>
-
-      </tr>
-    </table>
-  </body>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

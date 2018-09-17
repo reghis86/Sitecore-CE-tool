@@ -1,0 +1,169 @@
+    .articleContent .stepContent a,
+    .articleFacial .articleIntro a {
+		font-weight: bold;
+		color: #00419a;
+    }     
+	.kafle-conteainer-up-top {
+		width: 49%; 
+		float: left
+	}
+	.kafle-conteainer-down-top {
+		width: 49%; 
+		float: right;
+	}  
+	.kafle-step-top {
+		margin-top: 20px;
+		margin-bottom: 160px;
+	}
+	.tipsdetail .tips-content .kafle-step-top p {
+		font-weight: bold;
+	}
+    .kafel1, .kafel3 {
+        float: left; 
+        width: 48%; 
+        padding-bottom: 35px;
+    }
+    .kafel2, .kafel4 {
+        float: right; 
+        width: 48%; 
+        padding-bottom: 35px;
+    }	
+    .kafel1 img, .kafel2 img, .kafel3 img, .kafel4 img {
+        width: 100%;
+    }
+    .articleRelatedArticlesHeading {
+        text-transform: none; 
+        color: #1f4e79; 
+        font-family: futuraeftuop-bookregular; 
+        padding: 5px 0px; font-size: 21px; 
+        font-weight: bold; 
+        line-height: 26px; 
+        text-align: left;
+    }
+    .articleLinkBold {
+        font-weight: bold; color: #00419a;
+    }
+    .articleStepHeading a {
+        text-decoration: underline;	
+    }
+    .articleStylerBaner{
+        clear: both; text-align: center; 
+    }
+    .articleIntro {
+        padding: 10px 0px 30px;
+    }
+    .articlePrimaryHeading {
+        clear: both; 
+        color: #00419a; 
+        font-family: futuraeftuop-bookregular; 
+        padding: 20px 0px 15px; 
+        font-size: 25px; 
+        font-weight: bold; 
+        text-transform: none; 
+        display: block; 
+        line-height: 30px;	
+    }
+    .articleSecondaryHeading {
+        line-height: 30px; 
+        clear: both; 
+        color: #00419a; 
+        font-family: futuraeftuop-bookregular; 
+        padding: 0px 0px 20px; 
+        font-size: 25px; 
+        font-weight: bold; 
+        text-transform: none;
+    }
+    .embed-container {
+        width: 100%;
+        position: relative;
+        padding: 56.25% 0 0 0;    
+        margin-top: 15px;
+    }
+    .embed-container iframe, .embed-container object, .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }    
+    .stepContent{
+        font-size: 14px;
+        width: 43%; 
+        float: right;
+    }
+    .stepContent strong{
+        font-size: 14px;
+    }
+    .articleContent{
+        clear: both;
+        overflow: hidden;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .articleImage {
+        width: 38%;
+        margin-right: 0px;
+        float: left;
+        margin-top: 0px;
+    }
+    .articleImage img {
+        display: block;
+        border-radius: 15px;
+    }	
+    .articleImageStep{
+        width: 16%;
+        float: left;
+        height: 50px;
+        display: block;
+    }
+    .articleImageStep img{
+        width: 95px;
+        height: 75px;
+        display: block;
+        padding-top: 25px;
+    }
+    .articleStepHeading{
+        display: block;
+        color: #00419a;
+        font-family: 'futuraeftuop-bookregular';
+        padding: 0px 0;
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 26px;
+    }
+    .articlePromo {
+		text-align: center;
+		color: #00419a;
+    }
+	.ovalcont a {
+        font-weight: bold;
+        color: #00419a;
+    }
+    .article15StepContent{
+		font-size: 14px; 
+        height: 87px;
+        width: 84%;
+        margin-left: 7%;
+        margin-right: 5%;
+        float: left;
+        text-align: left;
+        padding-top: 10px;
+    }
+    .article15Image {
+        width: 84%;
+        margin-left: 7%;
+        margin-right: 0px; 
+        float: left; 
+        margin-top: 0px;
+    }
+    .article15Image img {
+		display: block;
+        border-radius: 15px;
+        width: 100%;
+        float: right;
+    }
+	.article15Main {
+		float: left; 
+		width: 100%; 
+		margin-top: 20px;
+    }    

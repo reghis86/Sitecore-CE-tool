@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name":    "Sitecore CE Tool",
+  "name":    "Sitecore CE Tool 0.6",
   "description": "Simple tool help with the Sitecore content edition.",
-  "version": "0.1",
+  "version": "0.6",
   "offline_enabled": true,
   "author": "Łukasz Parfieniuk",
   "background": {
@@ -18,8 +18,27 @@
   }],
 
   "page_action": {
-    "default_title": "Test Extension",
+    "default_title": "Sitecore CE Tool",
     "default_popup": "popup.html"
-  }
+  },
+  "web_accessible_resources": [
+      "customCss/article_desktop.css",
+      "customCss/article_mobile.css",
+      "customCss/faqRelatedVideos_desktop.css",
+      "customCss/faqRelatedVideos_mobile.css",
+      "customCss/science_desktop.css",
+      "customCss/science_mobile.css",
+      "customCss/grooming_desktop.css",
+      "customCss/grooming_mobile.css",
+      "customCss/wet_or_dry_desktop.css",
+      "customCss/wet_or_dry_mobile.css",
+      "customCss/venus_article_desktop.css",
+      "customCss/venus_article_mobile.css",
+      "customCss/custom_desktop.css",
+      "customCss/custom_mobile.css",
+      "customCss/styler_desktop.css",
+      "customCss/styler_mobile.css"
+
+   ]
 
 }
